@@ -1,0 +1,13 @@
+.footerContainer{
+    background-color: black;
+    height: 7vh;
+    display: flex;
+    /* position: fixed;
+    bottom: 0px; */
+}
+
+@media (max-width:775px) {
+    .footerInner{
+        flex-direction: column;
+    }
+}

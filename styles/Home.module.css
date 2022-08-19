@@ -1,6 +1,8 @@
 .PrimaryHeading{
   font-size: 3rem;
   color: #0D152E  ;
+  font-weight: 900;
+  width: 70%;
   
 }
 .mainContainer{
@@ -35,7 +37,7 @@
 .testimonalsRight{
   display: flex;
     flex-direction: column;
-    padding: 0 23px;
+    padding: 50px 23px;
     width: 48%;
 }
 .clientPara{
@@ -62,4 +64,82 @@
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
+}
+.prefooterContainer{
+  padding-bottom: 6%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.CommasImage{
+  background-color: black;
+  width: fit-content;
+    padding: 12px;
+    /* top: 2%; */
+    position: relative;
+    top: 33px;
+    left: 74%;
+    border-radius: 12px;
+}
+
+@media(max-width:1199px){
+  .TestimonialContainer{
+    width: 100%;
+  }
+}
+
+@media(max-width:991px){
+  .mainContainer{
+    flex-direction: column;
+    padding: 12px;
+  }
+  .PrimaryHeading{
+    
+    width: 100%;
+    
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+  }
+}
+
+@media(max-width:768px){
+  /* .imageDiv img{
+    width: 40%;
+  } */
+  .testimonalsRight{
+    width: 100%;
+  }
+}
+
+@media(max-width:700px){
+  .TestimonialContainer{
+    flex-direction: column;
+  }.CommasImage{
+    left: 40%;
+  }
+}
+
+@media(max-width:1149px){
+  .prefooterContainer {
+font-size: 2rem;
+  }
+}
+
+@media(max-width:585px){
+  .prefooterContainer {
+    font-size: 1.4rem;
+      }
+}
+
+@media(max-width:1305px){
+  .prefooterimages{
+    display: none;
+  }
 }

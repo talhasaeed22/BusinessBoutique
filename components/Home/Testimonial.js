@@ -7,7 +7,11 @@ const Testimonial = () => {
       <div className={styles.TestimonialContainer}>
         <div className="left">
           <div className={styles.imageDiv}>
-            <img src="/Images/client.png" alt="client" className='img-fluid' />
+            <div className={styles.CommasImage}>
+              <img src="/Images/Path 57.png" alt="" style={{width:'auto', height:'auto'}} />
+              <img src="/Images/Path 57.png" alt="" style={{width:'auto', height:'auto'}} />
+            </div> 
+            <img src="/Images/client.png" alt="client" className='img-fluid' style={{borderRadius:'20px'}} />
           </div>
         </div>
         <div className={styles.testimonalsRight}>

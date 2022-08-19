@@ -21,13 +21,13 @@ const home = () => {
         </div>
     </div>
 
-    <div className="" style={{margin:"15% 0"}}>
+    <div className="" style={{margin:"10% 0"}}>
         <Featurebox features={true} points={false} reverse={false} image="/Images/feature1.png" />
     </div>
-    <div className="" style={{margin:"15% 0"}}>
+    <div className="" style={{margin:"10% 0"}}>
         <Featurebox features={false} points={true} reverse={true} firstHeading="Business" secondHeading="Forecasting" para="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat." image="/Images/feature2.png" />
     </div>
-    <div className="" style={{margin:"15% 0"}}>
+    <div className="" style={{margin:"10% 0"}}>
         <Featurebox features={false} points={true} reverse={false} firstHeading="Take your best " secondHeading="decision right now." para="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempo." image="/Images/feature3.png" button={true}/>
     </div>
 
@@ -35,7 +35,7 @@ const home = () => {
         <Testimonial/>
     </div>
 
-    <div style={{height:'40vh'}} className='py-5 bg-black mt-5'>
+    <div style={{padding:'15% 0'}} className='py-5 bg-black mt-5'>
         <PreFooter/>
     </div>
 

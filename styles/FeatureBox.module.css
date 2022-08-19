@@ -2,6 +2,9 @@
     display: flex;
     
 }
+.rowReverse{
+    flex-direction: row-reverse;
+}
 .left{
     width: 45%;
 }
@@ -49,5 +52,48 @@
     width: 85%;
 }
 .notReverse{
-    padding: 53px 115px;
+    padding: 53px 82px;
 }
+.point{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:1399px){
+    .left{
+        width: 53%;
+    }
+}
+
+@media(max-width:1199px){
+    .right{
+        gap: 12px;
+        width: 100%;
+        align-items: center;
+    }
+    .left{
+        display: flex;
+    /* align-items: center; */
+    justify-content: center;
+        width: 100%;
+    }
+    .featuresContainer{
+        flex-direction: column-reverse;
+        
+    }
+}
+
+@media(max-width:766px){
+   .pointContainer{
+    flex-direction: column;
+   }
+}
+
+@media(max-width:515px){
+    .right{
+        padding: 12px;
+    }
+    .notReverse{
+        padding: 12px;
+    }
+}   
