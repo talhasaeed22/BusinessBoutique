@@ -1,0 +1,17 @@
+.contactContainer{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 43px;
+    background-color: white;
+    border-radius: 23px;
+    position: relative;
+    top: -115px;
+    gap: 23px;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
