@@ -5,9 +5,7 @@
 .rowReverse{
     flex-direction: row-reverse;
 }
-.left{
-    width: 45%;
-}
+
 .right{
     width: 50%;
     display: flex;

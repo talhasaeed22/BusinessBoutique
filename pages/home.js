@@ -22,7 +22,7 @@ const home = () => {
     </div>
 
     <div className="" style={{margin:"10% 0"}}>
-        <Featurebox features={true} points={false} reverse={false} image="/Images/feature1.png" />
+        <Featurebox features={true} points={false} reverse={false} image="/Images/business.jpeg" />
     </div>
     <div className="" style={{margin:"10% 0"}}>
         <Featurebox features={false} points={true} reverse={true} firstHeading="Business" secondHeading="Forecasting" para="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat." image="/Images/feature2.png" />
